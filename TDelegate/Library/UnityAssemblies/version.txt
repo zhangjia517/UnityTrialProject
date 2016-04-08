@@ -1,0 +1,7 @@
+4.6.3f1:2.1.0.0
+StandaloneWindows
+E:/Program Files/Unity4.6.3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.dll
+E:/Program Files/Unity4.6.3/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll
+E:/Program Files/Unity4.6.3/Editor/Data/Managed/UnityEditor.dll
+E:/Program Files/Unity4.6.3/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/Editor/UnityEditor.UI.dll
+E:/Program Files/Unity4.6.3/Editor/Data/Managed/UnityEditor.Graphs.dll
