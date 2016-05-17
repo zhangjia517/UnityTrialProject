@@ -1,6 +1,6 @@
 ﻿namespace ConsoleApplication
 {
-    internal class TEnumerable
+    public class EvenNumber
     {
         public System.Collections.Generic.IEnumerable<int> EvenSequence(int firstNum, int lastNum)
         {
