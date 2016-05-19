@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 
 namespace ConsoleApplication
@@ -14,7 +13,6 @@ namespace ConsoleApplication
             foreach (Animal theAnimal in animals)
             {
                 yield return theAnimal.Name;
-
             }
         }
 
@@ -42,12 +40,11 @@ namespace ConsoleApplication
         {
             foreach (Animal theAnimal in animals)
             {
-                if(theAnimal.Type == type)
+                if (theAnimal.Type == type)
                 {
                     yield return theAnimal.Name;
                 }
             }
-                
         }
 
         private class Animal

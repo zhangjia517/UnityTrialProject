@@ -23,29 +23,61 @@ namespace ConsoleApplication
             #endregion
 
             #region 示例3 动物园
-            Zoo theZoo = new Zoo();
-            theZoo.AddBird("Eagle");
-            theZoo.AddBird("Dragon");
-            theZoo.AddMammal("Pig");
-            theZoo.AddMammal("Monkey");
+            //Zoo theZoo = new Zoo();
+            //theZoo.AddBird("Eagle");
+            //theZoo.AddBird("Dragon");
+            //theZoo.AddMammal("Pig");
+            //theZoo.AddMammal("Monkey");
 
-            foreach (string name in theZoo)
-            {
-                Console.Write(name + " ");
-            }
-            Console.WriteLine();
-            Console.WriteLine();
-            foreach (string name in theZoo.Birds)
-            {
-                Console.WriteLine(name + " ");
-            }
-            Console.WriteLine();
-            foreach (string name in theZoo.Mammals)
-            {
-                Console.WriteLine(name + " ");
-            }
+            //foreach (string name in theZoo)
+            //{
+            //    Console.Write(name + " ");
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine();
+            //foreach (string name in theZoo.Birds)
+            //{
+            //    Console.WriteLine(name + " ");
+            //}
+            //Console.WriteLine();
+            //foreach (string name in theZoo.Mammals)
+            //{
+            //    Console.WriteLine(name + " ");
+            //}
             #endregion
 
+            #region 示例4 Stack
+            Stack<int> theStack = new Stack<int>();
+            for (int number = 0; number < 15; number++)
+            {
+                theStack.Push(number);
+            }
+
+            foreach (int number in theStack)
+            {
+                Console.Write("{0} ", number);
+            }
+            Console.WriteLine();
+
+            foreach (int number in theStack.TopToBottom)
+            {
+                Console.Write("{0} ", number);
+            }
+            Console.WriteLine();
+
+            foreach (int number in theStack.BottomToTop)
+            {
+                Console.Write("{0} ", number);
+            }
+            Console.WriteLine();
+
+            foreach (int number in theStack.TopN(5))
+            {
+                Console.Write("{0} ", number);
+            }
+            Console.WriteLine();
+
+            #endregion
             Console.ReadKey();
         }
     }
